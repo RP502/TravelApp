@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="tour_name">Tour Name</string>
+    <string name="book_now">Book Now</string>
+    <string name="tour_price">From $100</string>
+    <string name="tour_duration">Duration: 5 hours</string>
+    <string name="tour_location">Location: Hong Kong</string>
+    <string name="tour_transport">Transportation: Yes</string>
+    <string name="tour_description">Tour Description</string>
+    <string name="tour_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="hotel_name">Hotel Name</string>
+    <string name="hotel_address">123 Main Street, New York</string>
+    <string name="hotel_description">Hotel description goes here</string>
+    <string name="hotel_amenities">Amenities</string>
+    <string name="hotel_wifi">Free Wi-Fi</string>
+    <string name="hotel_pool">Swimming Pool</string>
+    <string name="hotel_gym">Gym</string>
+    <string name="hotel_restaurent">Restaurant</string>
+    <string name="hotel_room">Rooms</string>
+    <string name="empty_cart_text">Your cart is currently empty.</string>
+    <string name="remove_button_desc">remove</string>
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="rePhone">Phone</string>
+    <string name="repassword">RePassword</string>
+    <string name="regisName">Name</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="register">REGISTER</string>
+    <string name="rePass">SEND MAIL</string>
+    <string name="search_hint">Search here</string>
+    <string name="articles_description">Articles Description</string>
+
+
+</resources>

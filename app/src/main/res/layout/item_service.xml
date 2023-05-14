@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:orientation="horizontal"
+
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item_imageService"
+        android:layout_width="55dp"
+
+        android:layout_height="55dp"
+        android:src="@drawable/ic_media_24"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:id="@+id/item_nameService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Tour"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:textColor="#f20"
+        />
+
+</LinearLayout>
