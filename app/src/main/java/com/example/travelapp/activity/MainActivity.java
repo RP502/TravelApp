@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     ConstraintLayout csNews;
     private Timer timer;
     private TimerTask timerTask;
-    private int scrollAmount = 1100; // Adjust this value to control the scroll speed
+    private int scrollAmount = 1080; // Adjust this value to control the scroll speed
 
 
     @Override

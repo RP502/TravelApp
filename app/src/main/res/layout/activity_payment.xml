@@ -275,9 +275,10 @@
             <!-- Button to proceed to payment -->
             <Button
                 android:id="@+id/btnGoPayment"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_gravity="center"
                 android:backgroundTint="@color/button_focused"
                 android:text="Go to Payment"
                 android:textColor="@android:color/white"

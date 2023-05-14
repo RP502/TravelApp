@@ -70,9 +70,6 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder> 
         });
 
 
-//        long price = cart.getCart_quantity() * cart.getCart_price();
-//        holder.tv_item_price_cart2.setText(decimalFormat.format(price));
-
         holder.setListener(new ImageClickListener() {
             @Override
             public void onImageClick(View view, int pos, int value) {

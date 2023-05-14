@@ -18,7 +18,7 @@ import java.text.DecimalFormat;
 
 public class DetailsHotelActivity extends AppCompatActivity {
     ImageView img_Hotel;
-    TextView tv_Name, tv_Description,tv_Address,tv_Price;
+    TextView tv_Name, tv_Description,tv_Address,tv_Price, tv_Contact;
     Toolbar toolbarDetails;
 
     @Override
@@ -35,9 +35,10 @@ public class DetailsHotelActivity extends AppCompatActivity {
         Hotel hotel = (Hotel) getIntent().getSerializableExtra("detailsHotel");
         tv_Name.setText(hotel.getH_name());
         tv_Description.setText(hotel.getH_description());
+        tv_Contact.setText("Contact Booking: "+hotel.getH_phone());
 //        tour_location.setText(tour.getT_location_id());
 
-        tv_Address.setText(hotel.getH_address());
+        tv_Address.setText("Address: "+hotel.getH_address());
 
         Glide.with(getApplicationContext()).load(hotel.getH_image()).into(img_Hotel);
         DecimalFormat decimalFormat = new DecimalFormat("###,###,###");
@@ -54,6 +55,7 @@ public class DetailsHotelActivity extends AppCompatActivity {
         tv_Name = findViewById(R.id.hotel_name);
         tv_Description = findViewById(R.id.hotel_description);
         toolbarDetails = findViewById(R.id.toolbarDetails);
+        tv_Contact = findViewById(R.id.hotel_contact);
     }
 
 

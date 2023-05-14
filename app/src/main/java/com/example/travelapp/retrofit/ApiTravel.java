@@ -2,6 +2,7 @@ package com.example.travelapp.retrofit;
 
 import com.example.travelapp.model.ArticlesModel;
 import com.example.travelapp.model.BookOrderModel;
+import com.example.travelapp.model.CommentModel;
 import com.example.travelapp.model.HotelModel;
 import com.example.travelapp.model.MessageModel;
 import com.example.travelapp.model.NewTourModel;
@@ -25,12 +26,17 @@ public interface ApiTravel {
     @GET("detailsArticles.php")
     Observable<ArticlesModel> getNewArticles();
 
+    @GET("comment.php")
+    Observable<CommentModel> getComment();
+
     @POST("details.php")
     @FormUrlEncoded
     Observable<NewTourModel> getTour(
             @Field("page") int page,
             @Field("t_service_id") int t_service_id
     );
+
+
 
     @POST("detailsHotel.php")
     @FormUrlEncoded
